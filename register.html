@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+	body {
+        letter-spacing: 0.8px;
+        background-color: #9e6666;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+      }
+      h1{
+      	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      	font-size: 70px;
+      	position: static;
+      	text-align: center;
+      	color:#EDEDED;
+      }
+      #form {
+        border-radius: 35px;
+        border: 50px solid white;
+        background-color: white;
+        margin-top: 70px;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-bottom: 60px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 500px;
+        box-shadow: 0 30px 50px rgba(0, 0, 0, 0.2)
+      }
+      
+      input{
+        letter-spacing: 0.8px;
+        border: none;
+        border-radius: 35px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: #ededed;
+        padding-left: 50px;
+        padding-top: 10px;
+        padding-bottom: 8px;
+      }
+
+      button{
+        border-radius: 22px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: gray;
+        border: none;
+        color: white;
+        padding: 10px 70px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        margin-left: 15px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+      }
+      button:hover{
+        background-color: black;
+        color: white;
+      }
+      #name{
+      	height:300px;
+      }
+
+      }
+</style>
+<head>
+	<meta charset="utf-8">
+	<title>Register</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<main>
+		<div id="form">
+			<form action="">
+				<label class="name" for="name">Name</label>
+				<input type="text" name="name" required>
+				<label for="surname">Surname</label>
+				<input type="text" name="surname" required><br>
+				<label for="student-number">Student Number</label>
+				<input type="text" name="student-number" required><br>
+				<label for="phone-number">Phone Number</label>
+				<input type="text" name="phone-number" required>
+				<label for="birth-date">Birth Date</label>
+				<input type="date" name="birth-date">
+				<label for="gender">Genger</label>
+				<select name="gender" required>
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+				</select>
+				<label for="address">Address</label>
+				<input type="text" name="address">
+				<button type="submit" class="sign-up">Sign up</button>
+
+			</form>
+		</div>
+	</main>
+
+</body>
+</html>
